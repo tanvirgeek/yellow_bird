@@ -1,0 +1,335 @@
+@font-face {
+        font-family: "Theano Didot";
+        src: url('fonts/855499268-TheanoDidot-Regular.eot');
+        src: url('fonts/855499268-TheanoDidot-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/855499268-TheanoDidot-Regular.svg#Theano Didot') format('svg'),
+        url('fonts/855499268-TheanoDidot-Regular.woff') format('woff'),
+        url('fonts/855499268-TheanoDidot-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+}
+
+body {
+    background:url(images/background.png) repeat scroll center top;margin:10px auto;
+}
+
+.fix {
+    overflow:hidden;
+}
+
+.floatleft {
+    float:left;
+}
+
+.floatright {
+    float:right;
+}
+.alignleft {
+    float:left;margin-right:10px;
+}
+
+.alignright {
+    float:right;margin-left:10px;
+}
+
+.aligncenter {
+    display:block;margin:0 auto;
+}
+
+a, a:active, a:focus, a:active {
+    text-decoration:none !important
+}
+
+img {max-width:100%}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight:normal;
+    margin:0 0 15px;
+    font-family: "Theano Didot";
+}
+
+p{
+    font-family: "Theano Didot";
+}
+
+ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+.column {
+    width:800px;
+    margin:0px auto;
+    display:block;
+}
+
+/*... header ....*/
+.header{
+    background:#ffe700;
+}
+
+#social-icon{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+#social-icon li{
+    float:left;
+}
+
+#social-icon li a{
+   text-decoration:none;
+   padding:4px;
+}
+
+#social-icon li a:hover{}
+
+
+/*... Logo ....*/
+.logo{}
+.logo img{}
+
+
+/*... header-right ....*/
+.header-right{
+    text-align:center;
+}
+
+.mainmenu{}
+
+
+/*... mainmenu ....*/
+#navigation{
+    margin:0;
+    padding:0;
+    list-style:none;
+    text-align:center;
+}
+
+#navigation li{
+    display:inline;
+}
+
+#navigation li a{
+    text-decoration: none;
+    display: block;
+    color: #ffe700;
+    padding: 14px 14px;
+    display: inline-block;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: "Theano Didot";
+}
+
+#navigation li a span{
+    font-size: 20px;
+}
+
+#navigation li a:hover{}
+/*... six-poem ....*/
+
+.six-poem{
+    background:#ffe700;
+    margin-bottom:30px;
+}
+
+.poems{}
+
+.poems h2{
+    text-align:center;
+    line-height:22px;
+}
+
+.poems h2 span{
+    font-size:50px;
+}
+
+.left-image{}
+
+.send-mail{
+    position:relative;
+}
+
+.dashedline{}
+
+.dashedline img{
+    position:absolute;
+    top: 0px;
+}
+
+/*... Contact form in index page ....*/
+input[type="text"]{
+    border: 3px solid #000;
+    background: #ffe700;
+    color: #000000;
+    font-weight: normal;
+    text-align: center;
+    font-family: "Theano Didot";
+}
+
+input[type="text1"]{
+    border: 3px solid #000;
+    background: #ffe700;
+    color: #000000;
+    font-weight: normal;
+    margin: 0px 3px;
+    float: right;
+    text-align: center;	
+    font-family: "Theano Didot";
+}
+
+input[type="submit"]{
+    background: #000;
+    border: 1px solid #000;
+    color: #ffe700;
+    text-transform:uppercase;
+    font-family: "Theano Didot";
+    -webkit-box-shadow:0px 5px 12px rgba(50 , 50 , 50 , 0.5);
+}
+
+label {
+    cursor: pointer;
+    color:#fff;
+    margin-left:10px;
+    margin-bottom:0px;	
+}
+
+/*... campaign ....*/
+.campaign{
+    margin-top: 35px;
+}
+
+.campaign h3{
+    text-align:center;
+}
+
+.selected-poem{}
+
+.selected-poem h4{
+    text-align: center;
+    font-style: italic;
+}
+
+.selected-poem p{
+   text-align: center;
+}
+
+.right-image{}
+
+
+/*... about-us{ ....*/
+.about-us{
+    background:#ffe700;
+    margin-top:155px;
+}
+
+.about{
+    text-align: center;
+}
+
+.about h2{
+    text-align: center;
+    text-transform:uppercase;
+}
+
+.about h4{
+    text-align: center;
+    font-style: italic;
+}
+
+.about p{
+    text-align:center;
+    margin:0 auto;
+    font-size: 12px;
+}
+
+.about img{}
+
+/*  slider  */
+
+.slider{
+    background:#ffe700;
+    margin:30px 0px;
+}
+
+/*  participents  */
+.participents{
+    background:#ffe700;
+    margin-top:200px;
+    margin-bottom:150px;
+}
+
+.part{
+    text-align:center;
+}
+
+.part h2{
+    text-transform: uppercase;
+}
+
+.part h2 span{
+    font-size:40px;
+}
+
+.part p{
+    font-size:14px;
+}
+
+.single{
+    text-align:center;
+}
+
+.single img{}
+
+.single h3{
+    text-transform: uppercase;
+    font-size: 17px;
+    line-height: 24px;
+}
+
+.single h3 span{
+    font-size: 25px;
+}
+
+#social{
+    margin:0;
+    padding:0;
+    list-style:none;
+    margin-left: 60px;
+}
+
+#social li{
+    float:left;
+}
+
+#social li a{
+   text-decoration:none;
+   padding:4px;
+   display: block;
+   margin-bottom: 20px;
+}
+
+#social li a:hover{}
+
+/* footer */
+
+.footer{
+    background:#ffe700;
+}
+
+.copyright{
+    text-align:center;
+}
+
+
+.copyright p{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+.copyright p span{
+    font-size: 30px;
+}
